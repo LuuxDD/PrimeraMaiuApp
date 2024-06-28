@@ -1,4 +1,6 @@
-﻿namespace PrimeraMaiuApp
+﻿using PrimeraMaiuApp.Pages;
+
+namespace PrimeraMaiuApp
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new InicioPages();
         }
     }
 }
